@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CustomManuAndPopupMenu" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+
+        <item name="android:popupMenuStyle">@style/MyPopupMenu</item>
+        <item name="popupMenuBackground">@drawable/popupmenu_bg_custom</item>
+    </style>
+
+    <style name="MyPopupMenu" parent="Widget.Material3.PopupMenu">
+        <item name="android:popupBackground">@drawable/popupmenu_bg_custom</item>
+    </style>
+
+
+    <style name="Theme.CustomManuAndPopupMenu" parent="Base.Theme.CustomManuAndPopupMenu" />
+</resources>

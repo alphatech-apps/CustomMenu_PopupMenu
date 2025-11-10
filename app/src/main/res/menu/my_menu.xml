@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_screen_saver"
+        android:icon="@drawable/outline_10k_24"
+        android:title="Screen saver" />
+    <item
+        android:id="@+id/action_settings"
+        android:checkable="true"
+        android:icon="@drawable/outline_10k_24"
+        android:title="Settings" />
+    <item
+        android:id="@+id/action_privacy"
+
+        android:icon="@drawable/outline_10k_24"
+        android:title="Privacy policy" />
+    <item
+        android:id="@+id/action_help"
+        android:icon="@drawable/outline_10k_24"
+        android:title="Help" />
+</menu>
