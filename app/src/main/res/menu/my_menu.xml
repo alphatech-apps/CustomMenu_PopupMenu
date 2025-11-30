@@ -1,21 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_privacyx"
+        android:icon="@drawable/outline_3d_rotation_24"
+        android:title="Rotate"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="collapseActionView|always" />
     <item
         android:id="@+id/action_screen_saver"
         android:icon="@drawable/outline_10k_24"
         android:title="Screen saver" />
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/action_settings0"
         android:checkable="true"
-        android:icon="@drawable/outline_10k_24"
+        android:icon="@drawable/outline_2k_24"
         android:title="Settings" />
     <item
-        android:id="@+id/action_privacy"
+        android:id="@+id/action_account"
+        android:checkable="true"
+          android:icon="@drawable/outline_10k_24"
+        android:title="Account"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_privacyxccc"
+        android:icon="@drawable/outline_3d_rotation_24"
+        android:title="Rotation" />
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/outline_2k_24"
+        android:title="Sub Menu"
+        app:showAsAction="never">
 
-        android:icon="@drawable/outline_10k_24"
-        android:title="Privacy policy" />
+        <menu>
+            <item
+                android:id="@+id/sub_option1"
+                android:icon="@drawable/outline_30fps_select_24"
+                android:title="Option 1" />
+            <item
+                android:id="@+id/sub_option2"
+                android:icon="@drawable/outline_10k_24"
+                android:title="Option 2" />
+            <item
+                android:id="@+id/sub_option3"
+                android:icon="@drawable/outline_3d_rotation_24"
+                android:title="Option 3" />
+        </menu>
+    </item>
     <item
         android:id="@+id/action_help"
-        android:icon="@drawable/outline_10k_24"
-        android:title="Help" />
+        android:icon="@drawable/outline_30fps_select_24"
+        android:title="Help"
+        app:showAsAction="never" />
 </menu>

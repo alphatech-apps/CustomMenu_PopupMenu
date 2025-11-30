@@ -3,4 +3,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="popupMenu_bgcolor_daynight">#FFFFFF</color>
+    <color name="redx">#F44336</color>
+    <color name="redx2">#F9b336</color>
 </resources>
